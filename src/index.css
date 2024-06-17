@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+html, body, #root{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(18, 18, 228);
+    color:white;
+}
+
+input, a, button:focus{
+    outline: none;
+}
+
+input{
+    color:black;
+}
