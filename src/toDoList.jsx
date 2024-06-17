@@ -74,7 +74,7 @@ function DoList() {
                     <ul className="h-fit w-full flex flex-col items-center justify-center">
                         {toDos.map((toDo) => (
                             <li key={toDo.id} className="w-full h-10 flex flex-row border-white border-b-2">
-                                <p className="w-9/10 text-xl h-full flex items-center">{toDo.text}</p>
+                                <p className="w-10/10 text-xl h-full flex items-center">{toDo.text}</p>
                                 <MdDelete onClick={() => {HandleDelete(toDo.id)}} className="w-10 h-10 text-red-600 hover:cursor-pointer"/>
                             </li>
                         ))}
